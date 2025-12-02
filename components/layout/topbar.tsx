@@ -12,11 +12,11 @@ export function Topbar() {
   return (
     <header className="flex h-14 items-center justify-between border-b border-slate-800 bg-slate-950/80 px-4 backdrop-blur">
       <div className="text-sm text-slate-400">
-        Proyecto base <span className="font-semibold">core-react-next</span>
+        Proyecto base <span className="font-semibold">demo-next</span>
       </div>
 
       <div className="flex items-center gap-2">
-        <Button
+        {/*      <Button
           variant="outline"
           size="icon"
           className="h-8 w-8"
@@ -24,7 +24,7 @@ export function Topbar() {
         >
           {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           <span className="sr-only">Cambiar tema</span>
-        </Button>
+        </Button>*/}
 
         <div className="flex items-center gap-2 rounded-full border border-slate-700 px-3 py-1">
           <div className="h-6 w-6 rounded-full bg-slate-700" />

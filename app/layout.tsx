@@ -4,7 +4,7 @@ import { AppProviders } from "./providers";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "core-react-next",
+  title: "demo-next",
   description: "Base Next + TS + Tailwind + shadcn/ui para nuevos proyectos",
 };
 
